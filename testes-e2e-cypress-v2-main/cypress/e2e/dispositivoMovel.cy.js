@@ -13,5 +13,5 @@ describe('Testando dispositivos móveis', () => {
     cy.getByData('menu-lateral').find('a').eq(3).click();
 
     cy.location('pathname').should('eq', '/home/investimentos');
-  });
-});
+  })
+})
